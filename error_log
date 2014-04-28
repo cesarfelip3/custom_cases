@@ -1,0 +1,70 @@
+[18-Feb-2014 08:49:22] PHP Fatal error:  Class 'Mage_Productfiles_Helper_Data' not found in /home/pdp/public_html/2014/app/Mage.php on line 547
+[18-Feb-2014 08:51:35] PHP Fatal error:  Call to a member function toHtml() on a non-object in /home/pdp/public_html/2014/app/code/local/MST/Pdp/Block/Adminhtml/Importcolor/Edit/Tabs.php on line 15
+[18-Feb-2014 08:52:03] PHP Fatal error:  Call to a member function toHtml() on a non-object in /home/pdp/public_html/2014/app/code/local/MST/Pdp/Block/Adminhtml/Importcolor/Edit/Tabs.php on line 15
+[18-Feb-2014 08:54:03] PHP Fatal error:  Call to a member function setData() on a non-object in /home/pdp/public_html/2014/app/code/core/Mage/Adminhtml/Block/Widget/Form/Container.php on line 129
+[18-Feb-2014 08:56:54] PHP Fatal error:  Class 'Mage_Productfiles_Helper_Data' not found in /home/pdp/public_html/2014/app/Mage.php on line 547
+[18-Feb-2014 08:57:14] PHP Fatal error:  Call to a member function setData() on a non-object in /home/pdp/public_html/2014/app/code/core/Mage/Adminhtml/Block/Widget/Form/Container.php on line 129
+[18-Feb-2014 08:58:14] PHP Fatal error:  Call to a member function setData() on a non-object in /home/pdp/public_html/2014/app/code/core/Mage/Adminhtml/Block/Widget/Form/Container.php on line 129
+[18-Feb-2014 08:59:51] PHP Fatal error:  Call to a member function setData() on a non-object in /home/pdp/public_html/2014/app/code/core/Mage/Adminhtml/Block/Widget/Form/Container.php on line 129
+[18-Feb-2014 09:03:38] PHP Fatal error:  Call to a member function setData() on a non-object in /home/pdp/public_html/2014/app/code/core/Mage/Adminhtml/Block/Widget/Form/Container.php on line 129
+[18-Feb-2014 10:26:47] PHP Fatal error:  Class 'Mage_Productfiles_Helper_Data' not found in /home/pdp/public_html/2014/app/Mage.php on line 547
+[18-Feb-2014 10:27:19] PHP Fatal error:  Class 'Mage_Productfiles_Helper_Data' not found in /home/pdp/public_html/2014/app/Mage.php on line 547
+[19-Feb-2014 01:01:16] PHP Fatal error:  Call to a member function setData() on a non-object in /home/pdp/public_html/2014/app/code/core/Mage/Adminhtml/Block/Widget/Form/Container.php on line 129
+[19-Feb-2014 08:14:38] PHP Fatal error:  Class 'MST_Pdp_Block_Adminhtml_Importtext_Edit' not found in /home/pdp/public_html/2014/app/code/core/Mage/Core/Model/Layout.php on line 491
+[20-Feb-2014 01:39:47] PHP Fatal error:  Call to a member function getText() on a non-object in /home/pdp/public_html/2014/app/design/frontend/default/default/template/pdp/text.phtml on line 25
+[20-Feb-2014 01:40:07] PHP Fatal error:  Call to a member function getText() on a non-object in /home/pdp/public_html/2014/app/design/frontend/default/default/template/pdp/text.phtml on line 25
+[20-Feb-2014 01:40:30] PHP Fatal error:  Call to a member function getText() on a non-object in /home/pdp/public_html/2014/app/design/frontend/default/default/template/pdp/text.phtml on line 25
+[01-Mar-2014 02:26:18] PHP Parse error:  syntax error, unexpected '{' in /home/pdp/public_html/2014/app/design/adminhtml/default/default/template/pdp/product/pdpdesign.phtml on line 1
+[01-Mar-2014 02:27:17] PHP Parse error:  syntax error, unexpected '{' in /home/pdp/public_html/2014/app/design/adminhtml/default/default/template/pdp/product/pdpdesign.phtml on line 1
+[01-Mar-2014 02:27:39] PHP Parse error:  syntax error, unexpected '{' in /home/pdp/public_html/2014/app/design/adminhtml/default/default/template/pdp/product/pdpdesign.phtml on line 1
+[01-Mar-2014 02:28:51] PHP Parse error:  syntax error, unexpected '{' in /home/pdp/public_html/2014/app/design/adminhtml/default/default/template/pdp/product/pdpdesign.phtml on line 1
+[01-Mar-2014 02:29:12] PHP Parse error:  syntax error, unexpected '{' in /home/pdp/public_html/2014/app/design/adminhtml/default/default/template/pdp/product/pdpdesign.phtml on line 1
+[01-Mar-2014 02:29:41] PHP Parse error:  syntax error, unexpected '{' in /home/pdp/public_html/2014/app/design/adminhtml/default/default/template/pdp/product/pdpdesign.phtml on line 1
+[01-Mar-2014 02:31:11] PHP Parse error:  syntax error, unexpected '{' in /home/pdp/public_html/2014/app/design/adminhtml/default/default/template/pdp/product/pdpdesign.phtml on line 1
+[01-Mar-2014 02:32:07] PHP Parse error:  syntax error, unexpected '{' in /home/pdp/public_html/2014/app/design/adminhtml/default/default/template/pdp/product/pdpdesign.phtml on line 1
+[01-Mar-2014 03:02:20] PHP Fatal error:  Call to a member function getId() on a non-object in /home/pdp/public_html/2014/app/design/adminhtml/default/default/template/pdp/product/pdpdesign.phtml on line 6
+[01-Mar-2014 03:52:21] PHP Fatal error:  Call to undefined method MST_Pdp_Helper_Data::getDesignAreaId() in /home/pdp/public_html/2014/app/design/adminhtml/default/default/template/pdp/product/design_area.phtml on line 7
+[01-Mar-2014 03:57:21] PHP Fatal error:  Call to undefined method MST_Pdp_Helper_Data::getPrintAreaInfo() in /home/pdp/public_html/2014/app/design/adminhtml/default/default/template/pdp/product/design_area.phtml on line 11
+[01-Mar-2014 03:57:39] PHP Fatal error:  Call to undefined method MST_Pdp_Helper_Data::getPrintAreaInfo() in /home/pdp/public_html/2014/app/design/adminhtml/default/default/template/pdp/product/design_area.phtml on line 11
+[01-Mar-2014 03:58:26] PHP Fatal error:  Call to a member function getCollection() on a non-object in /home/pdp/public_html/2014/app/code/local/MST/Pdp/Helper/Data.php on line 203
+[01-Mar-2014 03:59:48] PHP Fatal error:  Call to a member function getCollection() on a non-object in /home/pdp/public_html/2014/app/code/local/MST/Pdp/Helper/Data.php on line 205
+[03-Mar-2014 07:44:50] PHP Parse error:  syntax error, unexpected '}' in /home/pdp/public_html/2014/app/code/local/MST/Pdp/controllers/Adminhtml/DesignareaController.php on line 160
+[03-Mar-2014 10:09:43] PHP Fatal error:  Call to undefined method Mage_Core_Model_Message_Success::getData() in /home/pdp/public_html/2014/app/code/local/MST/Pdp/controllers/Adminhtml/DesignareaController.php on line 157
+[03-Mar-2014 10:13:43] PHP Fatal error:  Call to a member function getCode() on a non-object in /home/pdp/public_html/2014/app/code/local/MST/Pdp/controllers/Adminhtml/DesignareaController.php on line 156
+[03-Mar-2014 10:23:50] PHP Parse error:  syntax error, unexpected T_DOUBLE_ARROW in /home/pdp/public_html/2014/app/code/local/MST/Pdp/controllers/Adminhtml/DesignareaController.php on line 157
+[03-Mar-2014 10:24:36] PHP Fatal error:  Call to a member function getText() on a non-object in /home/pdp/public_html/2014/app/code/local/MST/Pdp/controllers/Adminhtml/DesignareaController.php on line 157
+[13-Mar-2014 04:10:20] PHP Fatal error:  Class 'Zend_Degub' not found in /home/pdp/public_html/2014/app/code/local/MST/Pdp/controllers/Adminhtml/DesignareaController.php on line 207
+[13-Mar-2014 04:10:47] PHP Fatal error:  Class 'Zend_Debub' not found in /home/pdp/public_html/2014/app/code/local/MST/Pdp/controllers/Adminhtml/DesignareaController.php on line 207
+[17-Mar-2014 16:36:15] PHP Fatal error:  Call to a member function getDesignSides() on a non-object in /home/pdp/public_html/2014/app/design/adminhtml/default/default/template/pdp/product/side_table.phtml on line 3
+[17-Mar-2014 17:34:17] PHP Parse error:  syntax error, unexpected T_STRING in /home/pdp/public_html/2014/app/code/local/MST/Pdp/controllers/ViewController.php on line 1
+[17-Mar-2014 17:34:34] PHP Parse error:  syntax error, unexpected T_STRING in /home/pdp/public_html/2014/app/code/local/MST/Pdp/controllers/ViewController.php on line 1
+[17-Mar-2014 17:34:39] PHP Parse error:  syntax error, unexpected T_STRING in /home/pdp/public_html/2014/app/code/local/MST/Pdp/controllers/ViewController.php on line 1
+[17-Mar-2014 17:44:19] PHP Parse error:  syntax error, unexpected $end in /home/pdp/public_html/2014/app/code/local/MST/Pdp/controllers/ViewController.php on line 1
+[17-Mar-2014 17:44:43] PHP Parse error:  syntax error, unexpected $end in /home/pdp/public_html/2014/app/code/local/MST/Pdp/controllers/ViewController.php on line 1
+[17-Mar-2014 17:45:17] PHP Parse error:  syntax error, unexpected $end in /home/pdp/public_html/2014/app/code/local/MST/Pdp/controllers/ViewController.php on line 1
+[19-Mar-2014 07:47:17] PHP Fatal error:  Out of memory (allocated 345243648) (tried to allocate 295966721 bytes) in /home/pdp/public_html/2014/lib/Zend/Debug.php on line 82
+[19-Mar-2014 07:48:10] PHP Fatal error:  Out of memory (allocated 347340800) (tried to allocate 298065921 bytes) in /home/pdp/public_html/2014/lib/Zend/Debug.php on line 82
+[19-Mar-2014 08:04:34] PHP Fatal error:  Call to a member function toHtml() on a non-object in /home/pdp/public_html/2014/app/design/frontend/default/default/template/pdp/design_button.phtml on line 9
+[28-Mar-2014 17:27:08] PHP Fatal error:  Call to undefined method Mage_Core_Model_App::getParam() in /home/pdp/public_html/2014/app/design/adminhtml/default/default/template/pdp/product/new_side.phtml on line 5
+[06-Apr-2014 15:59:47] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/pdp/public_html/2014/app/code/local/MST/Pdp/controllers/Adminhtml/DesignareaController.php on line 252
+[06-Apr-2014 17:26:19] PHP Fatal error:  Call to a member function getId() on a non-object in /home/pdp/public_html/2014/app/design/adminhtml/default/default/template/pdp/product/side_table.phtml on line 52
+[07-Apr-2014 02:29:48] PHP Fatal error:  Call to a member function inlineUpdate() on a non-object in /home/pdp/public_html/2014/app/code/local/MST/Pdp/controllers/Adminhtml/DesignareaController.php on line 259
+[07-Apr-2014 02:30:37] PHP Fatal error:  Call to a member function inlineUpdate() on a non-object in /home/pdp/public_html/2014/app/code/local/MST/Pdp/controllers/Adminhtml/DesignareaController.php on line 259
+[07-Apr-2014 02:47:55] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/pdp/public_html/2014/app/code/local/MST/Pdp/Model/Pdpside.php on line 26
+[07-Apr-2014 02:48:42] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/pdp/public_html/2014/app/code/local/MST/Pdp/Model/Pdpside.php on line 26
+[07-Apr-2014 02:49:05] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting ',' or ';' in /home/pdp/public_html/2014/app/code/local/MST/Pdp/Model/Pdpside.php on line 26
+[07-Apr-2014 02:50:06] PHP Fatal error:  Call to a member function save() on a non-object in /home/pdp/public_html/2014/app/code/local/MST/Pdp/Model/Pdpside.php on line 27
+[07-Apr-2014 03:09:13] PHP Parse error:  syntax error, unexpected T_STRING, expecting T_VARIABLE in /home/pdp/public_html/2014/app/code/local/MST/Pdp/Model/Pdpside.php on line 22
+[07-Apr-2014 04:17:33] PHP Fatal error:  Can't use function return value in write context in /home/pdp/public_html/2014/app/design/frontend/default/default/template/pdp/t-shirt.phtml on line 42
+[07-Apr-2014 04:17:39] PHP Fatal error:  Can't use function return value in write context in /home/pdp/public_html/2014/app/design/frontend/default/default/template/pdp/t-shirt.phtml on line 42
+[07-Apr-2014 04:18:09] PHP Parse error:  syntax error, unexpected T_BOOLEAN_AND in /home/pdp/public_html/2014/app/design/frontend/default/default/template/pdp/t-shirt.phtml on line 42
+[07-Apr-2014 04:18:31] PHP Parse error:  syntax error, unexpected $end in /home/pdp/public_html/2014/app/design/frontend/default/default/template/pdp/t-shirt.phtml on line 453
+[08-Apr-2014 01:36:14] PHP Fatal error:  Call to undefined method Mage::getMediaUrl() in /home/pdp/public_html/2014/app/code/local/MST/Pdp/controllers/ViewController.php on line 1
+[08-Apr-2014 08:13:46] PHP Fatal error:  Call to a member function getActionName() on a non-object in /home/pdp/public_html/2014/app/code/core/Mage/Core/Controller/Varien/Action.php on line 187
+[08-Apr-2014 08:14:02] PHP Fatal error:  Call to a member function getActionName() on a non-object in /home/pdp/public_html/2014/app/code/core/Mage/Core/Controller/Varien/Action.php on line 187
+[08-Apr-2014 08:14:27] PHP Fatal error:  Call to a member function getActionName() on a non-object in /home/pdp/public_html/2014/app/code/core/Mage/Core/Controller/Varien/Action.php on line 187
+[08-Apr-2014 09:22:41] PHP Parse error:  syntax error, unexpected '.', expecting ')' in /home/pdp/public_html/2014/app/design/adminhtml/default/default/template/pdp/product/add_design_color.phtml on line 87
+[09-Apr-2014 03:57:49] PHP Parse error:  syntax error, unexpected T_DOUBLE_ARROW in /home/pdp/public_html/2014/app/design/adminhtml/default/default/template/pdp/product/view_design_color.phtml on line 8
+[09-Apr-2014 07:44:05] PHP Parse error:  syntax error, unexpected '/' in /home/pdp/public_html/2014/app/code/local/MST/Pdp/Model/Pdpcolorimage.php on line 26
+[09-Apr-2014 08:36:21] PHP Fatal error:  Cannot redeclare MST_Pdp_Adminhtml_DesignareaController::saveDesignColorAction() in /home/pdp/public_html/2014/app/code/local/MST/Pdp/controllers/Adminhtml/DesignareaController.php on line 237
+[09-Apr-2014 16:50:26] PHP Fatal error:  Call to a member function count() on a non-object in /home/pdp/public_html/2014/app/design/adminhtml/default/default/template/pdp/product/view_design_color.phtml on line 6
