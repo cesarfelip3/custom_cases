@@ -40,77 +40,77 @@
                 <title>PDP</title>
                 <sort_order>71</sort_order>
                 <children>
-					<!-- <pdpgroup module="pdp">
-						<title>Manage PDP Groups</title>
-						<sort_order>1</sort_order>
-						<children>
-							<addgroup module="pdp">
-								<title>Add New Group</title>
-								<sort_order>10</sort_order>
-								<action>pdp/adminhtml_group/new</action>
-							</addgroup>
-							<managegroup module="pdp">
-								<title>Manage Groups</title>
-								<sort_order>20</sort_order>
-								<action>pdp/adminhtml_group/index</action>
-							</managegroup>
-						</children>
-					</pdpgroup>
-                     -->
-					 <!--
-					<pdp module="pdp">
-                        <title>Manage PDP Template</title>
-                        <sort_order>20</sort_order>
-						<children>
-							<addpdp module="pdp">
-								<title>Add New Template</title>
-								<sort_order>10</sort_order>
-								<action>pdp/adminhtml_designtemplate_tshirt/index</action>
-							</addpdp>
-							<managepdp module="pdp">
-								<title>Manage Templates</title>
-								<sort_order>20</sort_order>
-								<action>pdp/adminhtml_pdp/design</action>
-							</managepdp>
-						</children>
-                    </pdp>
-					-->
-					<!--
-					<pdp_design_area module="pdp">
-						<title>Manage PDP Design Areas</title>
-						<sort_order>1</sort_order>
-						<children>
-							<addarea module="pdp">
-								<title>Add New Design Area</title>
-								<sort_order>10</sort_order>
-								<action>pdp/adminhtml_designarea/new</action>
-							</addarea>
-							<manageareas module="pdp">
-								<title>Manage Design Areas</title>
-								<sort_order>20</sort_order>
-								<action>pdp/adminhtml_designarea/index</action>
-							</manageareas>
-						</children>
-					</pdp_design_area>
-					-->
-					<images module="pdp">
+                    <!-- <pdpgroup module="pdp">
+                                               <title>Manage PDP Groups</title>
+                                               <sort_order>1</sort_order>
+                                               <children>
+                                                       <addgroup module="pdp">
+                                                               <title>Add New Group</title>
+                                                               <sort_order>10</sort_order>
+                                                               <action>pdp/adminhtml_group/new</action>
+                                                       </addgroup>
+                                                       <managegroup module="pdp">
+                                                               <title>Manage Groups</title>
+                                                               <sort_order>20</sort_order>
+                                                               <action>pdp/adminhtml_group/index</action>
+                                                       </managegroup>
+                                               </children>
+                                       </pdpgroup>
+                    -->
+                    <!--
+                    <pdp module="pdp">
+    <title>Manage PDP Template</title>
+    <sort_order>20</sort_order>
+                            <children>
+                                    <addpdp module="pdp">
+                                            <title>Add New Template</title>
+                                            <sort_order>10</sort_order>
+                                            <action>pdp/adminhtml_designtemplate_tshirt/index</action>
+                                    </addpdp>
+                                    <managepdp module="pdp">
+                                            <title>Manage Templates</title>
+                                            <sort_order>20</sort_order>
+                                            <action>pdp/adminhtml_pdp/design</action>
+                                    </managepdp>
+                            </children>
+</pdp>
+                    -->
+                    <!--
+                    <pdp_design_area module="pdp">
+                            <title>Manage PDP Design Areas</title>
+                            <sort_order>1</sort_order>
+                            <children>
+                                    <addarea module="pdp">
+                                            <title>Add New Design Area</title>
+                                            <sort_order>10</sort_order>
+                                            <action>pdp/adminhtml_designarea/new</action>
+                                    </addarea>
+                                    <manageareas module="pdp">
+                                            <title>Manage Design Areas</title>
+                                            <sort_order>20</sort_order>
+                                            <action>pdp/adminhtml_designarea/index</action>
+                                    </manageareas>
+                            </children>
+                    </pdp_design_area>
+                    -->
+                    <images module="pdp">
                         <title>Manage Artworks</title>
                         <sort_order>30</sort_order>
                       
-						<children>
-							<add_artworks_cate module="pdp">
-								<title>Manage Artwork Categories</title>
-								<sort_order>10</sort_order>
-								<action>pdp/adminhtml_artworkcate/index</action>
-							</add_artworks_cate>
-							<manageartworks module="pdp">
-								<title>Manage Artworks</title>
-								<sort_order>30</sort_order>
-								<action>pdp/adminhtml_pdp/image</action>
-							</manageartworks>
-						</children>
+                        <children>
+                            <add_artworks_cate module="pdp">
+                                <title>Manage Artwork Categories</title>
+                                <sort_order>10</sort_order>
+                                <action>pdp/adminhtml_artworkcate/index</action>
+                            </add_artworks_cate>
+                            <manageartworks module="pdp">
+                                <title>Manage Artworks</title>
+                                <sort_order>30</sort_order>
+                                <action>pdp/adminhtml_pdp/image</action>
+                            </manageartworks>
+                        </children>
                     </images>
-					<font module="pdp">
+                    <font module="pdp">
                         <title>Manage Fonts</title>
                         <sort_order>35</sort_order>
                         <action>pdp/adminhtml_pdp/font</action>
@@ -125,13 +125,13 @@
                         <sort_order>100</sort_order>
                         <action>pdp/adminhtml_text/index</action>
                     </text>
-					<!--
-					<pdptemplate module="pdp">
-                        <title>Manage Customer Designs</title>
-                        <sort_order>37</sort_order>
-                        <action>pdp/adminhtml_pdptemplate/index</action>
-                    </pdptemplate>
-					-->
+                    <!--
+                    <pdptemplate module="pdp">
+    <title>Manage Customer Designs</title>
+    <sort_order>37</sort_order>
+    <action>pdp/adminhtml_pdptemplate/index</action>
+</pdptemplate>
+                    -->
                     <setting module="pdp">
                         <title>Settings</title>
                         <sort_order>200</sort_order>
@@ -147,78 +147,78 @@
                 </all>
                 <admin>
                     <children>
-						<pdp module="pdp">
-							<title>PDP</title>
-							<sort_order>71</sort_order>
-							<children>
-								<pdpgroup module="pdp">
-									<title>Manage PDP Groups</title>
-									<sort_order>1</sort_order>
-									<children>
-										<addgroup module="pdp">
-											<title>Add New Group</title>
-											<sort_order>10</sort_order>
-											<action>pdp/adminhtml_group/new</action>
-										</addgroup>
-										<managegroup module="pdp">
-											<title>Manage Groups</title>
-											<sort_order>20</sort_order>
-											<action>pdp/adminhtml_group/index</action>
-										</managegroup>
-									</children>
-								</pdpgroup>
-								<pdp module="pdp">
-									<title>Manage PDP Template</title>
-									<sort_order>20</sort_order>
-									<children>
-										<addpdp module="pdp">
-											<title>Add New Template</title>
-											<sort_order>10</sort_order>
-											<action>pdp/adminhtml_designtemplate_tshirt/index</action>
-										</addpdp>
-										<managepdp module="pdp">
-											<title>Manage Templates</title>
-											<sort_order>20</sort_order>
-											<action>pdp/adminhtml_pdp/design</action>
-										</managepdp>
-									</children>
-								</pdp>
-								<images module="pdp">
-									<title>Manage Artworks</title>
-									<sort_order>30</sort_order>
+                        <pdp module="pdp">
+                            <title>PDP</title>
+                            <sort_order>71</sort_order>
+                            <children>
+                                <pdpgroup module="pdp">
+                                    <title>Manage PDP Groups</title>
+                                    <sort_order>1</sort_order>
+                                    <children>
+                                        <addgroup module="pdp">
+                                            <title>Add New Group</title>
+                                            <sort_order>10</sort_order>
+                                            <action>pdp/adminhtml_group/new</action>
+                                        </addgroup>
+                                        <managegroup module="pdp">
+                                            <title>Manage Groups</title>
+                                            <sort_order>20</sort_order>
+                                            <action>pdp/adminhtml_group/index</action>
+                                        </managegroup>
+                                    </children>
+                                </pdpgroup>
+                                <pdp module="pdp">
+                                    <title>Manage PDP Template</title>
+                                    <sort_order>20</sort_order>
+                                    <children>
+                                        <addpdp module="pdp">
+                                            <title>Add New Template</title>
+                                            <sort_order>10</sort_order>
+                                            <action>pdp/adminhtml_designtemplate_tshirt/index</action>
+                                        </addpdp>
+                                        <managepdp module="pdp">
+                                            <title>Manage Templates</title>
+                                            <sort_order>20</sort_order>
+                                            <action>pdp/adminhtml_pdp/design</action>
+                                        </managepdp>
+                                    </children>
+                                </pdp>
+                                <images module="pdp">
+                                    <title>Manage Artworks</title>
+                                    <sort_order>30</sort_order>
 								  
-									<children>
-										<add_artworks_cate module="pdp">
-											<title>Manage Artwork Categories</title>
-											<sort_order>10</sort_order>
-											<action>pdp/adminhtml_artworkcate/index</action>
-										</add_artworks_cate>
-										<manageartworks module="pdp">
-											<title>Manage Artworks</title>
-											<sort_order>30</sort_order>
-											<action>pdp/adminhtml_pdp/image</action>
-										</manageartworks>
-									</children>
-								</images>
-								<font module="pdp">
-									<title>Manage Fonts</title>
-									<sort_order>35</sort_order>
-									<action>pdp/adminhtml_pdp/font</action>
-								</font>
-								<!--
-								<pdptemplate module="pdp">
-									<title>Manage Customer Designs</title>
-									<sort_order>37</sort_order>
-									<action>pdp/adminhtml_pdptemplate/index</action>
-								</pdptemplate>
-								-->
-								<setting module="pdp">
-									<title>Settings</title>
-									<sort_order>40</sort_order>
-									<action>adminhtml/system_config/edit/section/pdp</action>
-								</setting>
-							</children>
-						</pdp>
+                                    <children>
+                                        <add_artworks_cate module="pdp">
+                                            <title>Manage Artwork Categories</title>
+                                            <sort_order>10</sort_order>
+                                            <action>pdp/adminhtml_artworkcate/index</action>
+                                        </add_artworks_cate>
+                                        <manageartworks module="pdp">
+                                            <title>Manage Artworks</title>
+                                            <sort_order>30</sort_order>
+                                            <action>pdp/adminhtml_pdp/image</action>
+                                        </manageartworks>
+                                    </children>
+                                </images>
+                                <font module="pdp">
+                                    <title>Manage Fonts</title>
+                                    <sort_order>35</sort_order>
+                                    <action>pdp/adminhtml_pdp/font</action>
+                                </font>
+                                <!--
+                                <pdptemplate module="pdp">
+                                        <title>Manage Customer Designs</title>
+                                        <sort_order>37</sort_order>
+                                        <action>pdp/adminhtml_pdptemplate/index</action>
+                                </pdptemplate>
+                                -->
+                                <setting module="pdp">
+                                    <title>Settings</title>
+                                    <sort_order>40</sort_order>
+                                    <action>adminhtml/system_config/edit/section/pdp</action>
+                                </setting>
+                            </children>
+                        </pdp>
                     </children>
                 </admin>
             </resources>
@@ -243,61 +243,61 @@
                     <images>
                         <table>mst_pdp_images</table>
                     </images>
-					<design>
+                    <design>
                         <table>mst_pdp_design</table>
                     </design>
-					<fonts>
+                    <fonts>
                         <table>mst_pdp_fonts</table>
                     </fonts>
-					<colorimage>
+                    <colorimage>
                         <table>mst_pdp_image_color</table>
                     </colorimage>
-					<!-- <designcolor>
+                    <!-- <designcolor>
                         <table>mst_pdp_design_color</table>
                     </designcolor> -->
                     <printarea>
                         <table>mst_pdp_printarea</table>
                     </printarea>
-					<artworkcate>
+                    <artworkcate>
                         <table>mst_pdp_artwork_category</table>
                     </artworkcate>
-					<pdpgroup>
+                    <pdpgroup>
                         <table>mst_pdp_group</table>
                     </pdpgroup>
-					<pdptemplate>
+                    <pdptemplate>
                         <table>mst_pdp_template</table>
                     </pdptemplate>
-					<admintemplate>
+                    <admintemplate>
                         <table>mst_pdp_admin_template</table>
                     </admintemplate>
-					<act>
+                    <act>
                         <table>mst_pdp_act</table>
                     </act>
-					<pdpoption>
+                    <pdpoption>
                         <table>mst_pdp_options</table>
                     </pdpoption>
-					<color>
+                    <color>
                         <table>mst_pdp_colors</table>
                     </color>
                     <text>
                         <table>mst_pdp_texts</table>
                     </text>
-					<designarea>
+                    <designarea>
                         <table>mst_pdp_design_areas</table>
                     </designarea>
                     <designareaitem>
                         <table>mst_pdp_items_design_area</table>
                     </designareaitem>
-					<productstatus>
-						<table>mst_pdp_product_status</table>
-					</productstatus>
-					<pdpside>
-						<table>mst_pdp_multisides</table>
-					</pdpside>
-					<pdpcolor>
-						<table>mst_pdp_multisides_colors</table>
-					</pdpcolor>
-					<pdpcolorimage>
+                    <productstatus>
+                        <table>mst_pdp_product_status</table>
+                    </productstatus>
+                    <pdpside>
+                        <table>mst_pdp_multisides</table>
+                    </pdpside>
+                    <pdpcolor>
+                        <table>mst_pdp_multisides_colors</table>
+                    </pdpcolor>
+                    <pdpcolorimage>
                         <table>mst_pdp_multisides_colors_images</table>
                     </pdpcolorimage>
                 </entities>
@@ -327,10 +327,10 @@
             <pdp>
                 <class>MST_Pdp_Block</class>
             </pdp>
-			<adminhtml>
-            	<rewrite>
-		             <catalog_product_edit_tabs>MST_Pdp_Block_Adminhtml_Tabs</catalog_product_edit_tabs>
-		         </rewrite>
+            <adminhtml>
+                <rewrite>
+                    <catalog_product_edit_tabs>MST_Pdp_Block_Adminhtml_Tabs</catalog_product_edit_tabs>
+                </rewrite>
             </adminhtml>
         </blocks>
         <helpers>
@@ -338,17 +338,17 @@
                 <class>MST_Pdp_Helper</class>
             </pdp>
         </helpers>
-		<events>
-			<!-- <checkout_cart_product_add_after>
-				<observers>
-					<mst_itemprice_price_observer>
-						<type>singleton</type>
-						<class>MST_Pdp_Model_Observer</class>
-						<method>updateItemPrice</method>
-					</mst_itemprice_price_observer>
-				</observers>
-			</checkout_cart_product_add_after> -->
-			<controller_front_init_routers>
+        <events>
+            <!-- <checkout_cart_product_add_after>
+                    <observers>
+                            <mst_itemprice_price_observer>
+                                    <type>singleton</type>
+                                    <class>MST_Pdp_Model_Observer</class>
+                                    <method>updateItemPrice</method>
+                            </mst_itemprice_price_observer>
+                    </observers>
+            </checkout_cart_product_add_after> -->
+            <controller_front_init_routers>
                 <observers>
                     <pdp>
                         <type>singleton</type>
@@ -357,16 +357,16 @@
                     </pdp>
                 </observers>
             </controller_front_init_routers>
-		</events>
+        </events>
     </global>
-	<default>
-		<pdp>
-			<setting>
-				<enable>1</enable>
-				<productid>1</productid>
-				<headertitle>Customize</headertitle>
-				<urlkey>pdpdesign</urlkey>
-	        </setting>
-	    </pdp>
+    <default>
+        <pdp>
+            <setting>
+                <enable>1</enable>
+                <productid>1</productid>
+                <headertitle>Customize</headertitle>
+                <urlkey>pdpdesign</urlkey>
+            </setting>
+        </pdp>
     </default>
 </config>
