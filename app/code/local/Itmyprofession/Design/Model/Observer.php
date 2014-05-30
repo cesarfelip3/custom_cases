@@ -57,11 +57,11 @@ class Itmyprofession_Design_Model_Observer
     {
         $from = Mage::getBaseDir('media') . DS . "pdp" . DS . "design" . DS . "tmp" . DS;
         if (!is_dir($from)) {
-            mkdir($from);
+            mkdir($from, 0777, true);
         }
         $to = Mage::getBaseDir('media') . DS . "pdp" . DS . "design" . DS . "checkout" . DS;
         if (!is_dir($to)) {
-            mkdir($to);
+            mkdir($to, 0777, true);
         }
         @copy($from . $imageFile, $to . $imageFile);
     }
