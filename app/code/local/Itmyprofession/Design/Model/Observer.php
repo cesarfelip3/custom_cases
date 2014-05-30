@@ -47,7 +47,7 @@ class Itmyprofession_Design_Model_Observer
             $this->_moveFinalImageToDestination(unserialize($additionalOptions->getValue()));
         }
     }
-    
+
     /**
      * Move image from temporary location
      * 
@@ -56,7 +56,13 @@ class Itmyprofession_Design_Model_Observer
     protected function _moveFinalImageToDestination($imageFile)
     {
         $from = Mage::getBaseDir('media') . DS . "pdp" . DS . "design" . DS . "tmp" . DS;
+        if (!is_dir($from)) {
+            mkdir($from);
+        }
         $to = Mage::getBaseDir('media') . DS . "pdp" . DS . "design" . DS . "checkout" . DS;
+        if (!is_dir($to)) {
+            mkdir($to);
+        }
         @copy($from . $imageFile, $to . $imageFile);
     }
 

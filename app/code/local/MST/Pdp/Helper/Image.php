@@ -18,6 +18,9 @@ class MST_Pdp_Helper_Image extends Mage_Core_Helper_Abstract
     public function __construct()
     {
         self::$_tmpDir = Mage::getBaseDir('media') . DS . "pdp" . DS . "design" . DS . "tmp" . DS;
+        if (!is_dir(self::$_tmpDir)) {
+            mkdir(self::$_tmpDir);
+        }
     }
 
     /**
