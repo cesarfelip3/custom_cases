@@ -5,6 +5,7 @@ media/.htaccess
 media/import/
 media/xmlconnect/
 media/catalog/product/cache/
+media/pdp/
 nbproject/
 pkginfo/
 var/

@@ -69,12 +69,17 @@ mst(document).ready(function($) {
     //$('#product-image-wrap-back .wrap_inlay_center').append('<img id="main_image_back" src="' + m + 'media/pdp/images/no_image.jpg" />');
     //if ($('#list_color li').length > 0) {
     //var inlay = first_item.attr("inlay").split(",");
-    var inlay = '513,490,0,0';
-    inlay = inlay.split(',');
 
     $('#main_image').attr("src", first_item.find('img').attr("src"));
-
+    console.log(first_item);
     var w_img_f = $('#main_image').width();
+    var h_img_f = $('#main_image').height();
+
+    var inlay = w_img_f + ',' + h_img_f + ',0,0';
+    inlay = inlay.split(',');
+    //console.log(inlay);
+
+
     //$('#main_image_front,#main_image_back').hide();
     $('#wrap_inlay').css({
         "width": inlay[0] + 'px',
@@ -89,7 +94,14 @@ mst(document).ready(function($) {
         'height': inlay[1]
     });
 
-    var canvas = new fabric.Canvas('canvas_area', {});
+    var canvas = new fabric.Canvas('canvas_area', {
+    });
+    var img_bg = m + 'media/pdp/images/' + $('#pdp_side_items li.active').attr('side_img');
+    var mainImage = fabric.Image.fromURL(img_bg, function(img) {
+        // disable image selection
+        img.set('selectable', false);
+        canvas.add(img);
+    });
 
     $('#pdp_side_items li').each(function() {
         $('.wrapper_pdp').append($(this).children('img').clone().addClass('pdp_img_session_' + $(this).index()).removeAttr('width').hide());
@@ -1379,22 +1391,23 @@ mst(document).ready(function($) {
             $('.wrap_inlay_center').css("margin-left", (w_wrap - w_canvas) / 2 + 'px');
         },
         saveCustomImage: function() {
-            console.log('Saving custom image..................');
             canvasEvents.save_history();
             if (!fabric.Canvas.supports('toDataURL')) {
                 alert('This browser doesn\'t provide means to serialize canvas to an image');
             } else {
                 var img_bg = m + 'media/pdp/images/' + $('#pdp_side_items li.active').attr('side_img');
                 //alert(img_bg);
-                canvas.setBackgroundImage(img_bg, canvas.renderAll.bind(canvas));
-                //console.log(canvas.toDataURL('png'));
+                //canvas.setBackgroundImage(img_bg, canvas.renderAll.bind(canvas));
+                //remove border, selection while saving
+                canvas.deactivateAll().renderAll();
+                console.log(canvas.toDataURL('png'));
 
+                // save custom image
                 jQuery.ajax({
                     type: 'POST',
                     url: $("#url_site").val() + "/pdp/view/saveCustomImage",
                     data: {img: canvas.toDataURL({format: 'png', quality: 1})},
                     success: function(response) {
-                        console.log(response);
                         return;
                         if (!response.success) {
                             alert('Error!');

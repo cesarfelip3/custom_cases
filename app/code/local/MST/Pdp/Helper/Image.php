@@ -54,4 +54,26 @@ class MST_Pdp_Helper_Image extends Mage_Core_Helper_Abstract
         return $filename;
     }
 
+    /**
+     * Get session Image name
+     */
+    public function getSessionImage()
+    {
+        return Mage::getModel('core/session')->getData('customImage');
+    }
+
+    /**
+     * Get Final Image
+     * 
+     * @param type $item
+     * @return type
+     */
+    public function getFinalImage($item)
+    {
+        $results = $item->getOptionByCode("final_image");
+        if (!is_null($results))
+            $results = unserialize($results->getValue());
+        return $results;
+    }
+
 }
