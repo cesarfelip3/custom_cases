@@ -76,8 +76,11 @@ mst(document).ready(function($) {
     var h_img_f = $('#main_image').height();
 
     var inlay = w_img_f + ',' + h_img_f + ',0,0';
+    //var inlay = first_item.attr('inlay');
     inlay = inlay.split(',');
     //console.log(inlay);
+
+
 
 
     //$('#main_image_front,#main_image_back').hide();
@@ -281,8 +284,8 @@ mst(document).ready(function($) {
             }
         }
     });
-
-    $('#use_shadow').click(function() {
+    $('#use_shadow', '#shadow_item').click(function() {
+        // $('#use_shadow','#shadow_item').click(function() {
         if (!$(this).hasClass('active')) {
             $('.font_outline_color > div').show();
             canvasEvents.addShadowItem();
@@ -498,11 +501,6 @@ mst(document).ready(function($) {
     });
 
     /*Save Design*/
-    $("#save_design_btn").click(function() {
-        alert('test');
-        return false;
-    });
-
     $('#save_design').click(function() {
         //canvasEvents.save_design_json();
         canvasEvents.saveCustomImage();
@@ -511,6 +509,9 @@ mst(document).ready(function($) {
     jQuery('.pdp_add_to_cart').on('click', function() {
         canvasEvents.save_design($('#pdp_side_items li.active').index(), $('#main_image').width(), $('#main_image').height());
         $('#pdp_popup').hide();
+
+        // save image
+        canvasEvents.saveCustomImage();
 
         jQuery('.product-img-box').show();
         jQuery('.product-image').show();
